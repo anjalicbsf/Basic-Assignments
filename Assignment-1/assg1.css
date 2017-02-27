@@ -1,0 +1,103 @@
+.wrap{
+	display: block;
+    /*width: 100%;
+    height: auto;*/
+}
+.row{
+	/*display: inline-flex;*/
+   /* width: 100%;
+    height: auto;*/
+}
+.col-{
+	display: inline-block;
+}
+
+p {
+    padding: 10px;
+}
+.col-11,.col-13{
+    width: calc(100%/3);
+    float: left;
+}
+.col-12{
+    width: calc(100%/2);
+    float: left;
+}
+.col-14{
+	width: 100%;
+}
+.col-15{
+	width: calc(100%/4);
+	float: left;
+}
+.col-1{
+	background-color: #d9d9e4;
+}
+.col-2{
+	background-color: #9391ab;
+}
+.col-3{
+	background-color: #74728e;
+}
+.col-4{
+	background-color: #7ad47a;
+}
+.col-5{
+	background-color: #5dc35d;
+}
+.col-6{
+	background-color: #d4afaf;
+}
+.col-7{
+	background-color: #b77979;
+}
+.col-8{
+	background-color: #985454;
+}
+.col-9{
+	background-color: #f3f3ec;
+}
+.col-15{
+	display: inline-block;
+}
+.col-15.col-10{
+	background-color: #0ae6da;
+
+}
+.col-15.col-11{
+	background-color: #67c3be;
+}
+.col-15.col-12{
+	background-color: #9ce2de;
+}
+.col-15.col-13{
+	background-color: #d8eceb;
+}
+.col-14.col-9 {
+    display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+/*
+.row-one .col.one{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+}
+.col.one {
+    background-color: blueviolet;
+}*/
+/*.row-one,.row-two {
+    display: inline-block;
+}
+p {
+    padding: 20px;
+}
+.row-two .col{
+	width: calc(100%/2);
+	float: left;
+}*/
