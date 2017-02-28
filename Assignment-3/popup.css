@@ -1,5 +1,6 @@
 .subwrap {
     display: block;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .popup-window {
     width: 300px;
@@ -7,6 +8,10 @@
     background-color: black;
     margin: 0 auto;
     opacity: 0.4;
+    display: none;
+}
+.open{
+    display: block;
 }
 .side-area {
     width: 100%;
@@ -48,4 +53,20 @@
 .inner-content p {
     margin: 0;
     padding: 1px;
+}
+
+.popup-button {
+    width: 106px;
+    height: 35px;
+    background-color: #3364bb;
+    display: inline-block;
+    color: white;
+    margin-top: 31px;
+    margin-left: 63px;
+}
+
+.popup-button p {
+    margin: 0 auto;
+    padding-top: 9px;
+    padding-left: 14px;
 }
