@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
-  $("#").hover(function(){
-      $("li#rs1").toggleClass("active");  //Toggle the active class to the area is hovered
+  $("#logo-up").hover(function(){
+  	 $(".info-up").removeClass("close"); 
+      $(".info-up").addClass("open");  
   });
 
 });
