@@ -1,0 +1,33 @@
+img{
+	height: 200px;
+	width: 200px;
+}
+.container{
+    text-align: center;
+}
+.back {
+    position: absolute;
+    top: 8px;
+    left: 583px;
+    transform: rotateY(-180deg);
+    z-index: -1;
+    backface-visibility: hidden;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+   
+}
+.front {
+    position: relative;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    z-index: 9;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.container.result_hover .front:hover{
+       transform: rotateY(180deg);
+}
+.container.result_hover .back:hover{
+     transform: rotateY(0deg);
+}
