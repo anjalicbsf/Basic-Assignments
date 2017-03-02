@@ -24,17 +24,11 @@
     margin: 30px auto;
     border: 2px solid;
     background-color: rgba(220, 72, 98, 0.47);
-    /*animation: fadeIn 1.50s; */
-    opacity: 0;
-    transition: all 800ms;
-
-   
+    animation: fadeIn 1.50s;    
 }
 
 .panel.open{
 	display: block;
-	opacity: 1;
-	width: 50%;
 }
 .header {
    
