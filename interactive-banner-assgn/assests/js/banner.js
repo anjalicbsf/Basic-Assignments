@@ -7,4 +7,3 @@ $(document).ready(function(){
 			$('.img-parent').removeClass('open');
 		});
 })
-

@@ -2,16 +2,14 @@
     width: 100%;
     height: 800px;
     background-color: #f3a8a8;
-   	
 }
 .container {
     height: 40%;
-    width: 50%;
+    width: calc(100%/2);
     margin: 0 auto;
     transform: translate(0px,93px);
     background-color: antiquewhite;
     overflow: hidden;
-  
 }
 .img-parent{
     width: 100%;
@@ -34,14 +32,13 @@
     width: 100%;
     height: 100%;
     display: inline-block;
-     text-align: center; 
-     border: 1px solid #ffffff; 
+    text-align: center; 
+    border: 1px solid #ffffff; 
     background-color: rgba(220, 72, 98, 0.47);
-     transform: scale(1.4); 
+    transform: scale(1.4); 
     transition: opacity 0.35s,transform 0.35s;
     margin: 0 auto;
     padding-top: 75px;
-
 }
 .panel-border {
     display: inline-block;
@@ -52,17 +49,10 @@
 .panel.open{	
     transform: scale(1.1);
     opacity: 1;
-
 }
 .img-parent.open{
     transform: scale(1.1);
 }
-
 .content {
     font-size: 14px;
 }
-/*@keyframes fadeIn {
-   0% {opacity: 0;}
-   25%{opacity: 0.5;} 
-   100% {opacity: 1;}
-}*/
