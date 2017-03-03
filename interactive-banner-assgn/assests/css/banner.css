@@ -1,14 +1,27 @@
 .wrap {
     width: 100%;
-    height: 300px;
-   	padding-top: 50px;
+    height: 800px;
+    background-color: #f3a8a8;
+   	
 }
 .container {
+    height: 40%;
     width: 50%;
-    height: 100%;
     margin: 0 auto;
-    background-color: black;
+    transform: translate(0px,93px);
+    background-color: antiquewhite;
+    overflow: hidden;
+  
+}
+.img-parent{
+    width: 100%;
+    height: 100%;
     color: white;
+    background-image: url(https://images.pexels.com/photos/251603/pexels-photo-251603.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.8); 
+    transition:transform 0.35s;
 }
 .img-base {
     width: 100%;
@@ -17,25 +30,32 @@
 }
 
 .panel {
-	display: none;
-    width: 60%;
-    height: 60%;
+	opacity: 0;
+    width: 440px;
+    height: 218px;
+    display: inline-block;
     text-align: center;
-    margin: 30px auto;
-    border: 2px solid;
+    margin: 51px 113px;
+    border: 1px solid #ffffff;
     background-color: rgba(220, 72, 98, 0.47);
-    animation: fadeIn 1.50s;    
+    transform: scale(1.4);
+    transition: opacity 0.35s,transform 0.35s;
 }
 
-.panel.open{
-	display: block;
+.panel.open{	
+    transform: scale(1.1);
+    opacity: 1;
+
+}
+.img-parent.open{
+    transform: scale(1.1);
 }
 .header {
    
     padding-top: 41px;
 }
-@keyframes fadeIn {
+/*@keyframes fadeIn {
    0% {opacity: 0;}
-/*   25%{opacity: 0.5;} */
+   25%{opacity: 0.5;} 
    100% {opacity: 1;}
-}
+}*/
