@@ -31,17 +31,24 @@
 
 .panel {
 	opacity: 0;
-    width: 440px;
-    height: 218px;
+    width: 100%;
+    height: 100%;
     display: inline-block;
-    text-align: center;
-    margin: 51px 113px;
-    border: 1px solid #ffffff;
+     text-align: center; 
+     border: 1px solid #ffffff; 
     background-color: rgba(220, 72, 98, 0.47);
-    transform: scale(1.4);
+     transform: scale(1.4); 
     transition: opacity 0.35s,transform 0.35s;
-}
+    margin: 0 auto;
+    padding-top: 75px;
 
+}
+.panel-border {
+    display: inline-block;
+    height: 53%;
+    width: 80%;
+    border: 1px solid white;
+}
 .panel.open{	
     transform: scale(1.1);
     opacity: 1;
@@ -50,9 +57,9 @@
 .img-parent.open{
     transform: scale(1.1);
 }
-.header {
-   
-    padding-top: 41px;
+
+.content {
+    font-size: 14px;
 }
 /*@keyframes fadeIn {
    0% {opacity: 0;}
